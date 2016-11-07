@@ -9,8 +9,8 @@ require 'uri'
 require 'net/http'
 
 # 操作员选项
-$operator = "bin"
-$password = "binisbin"
+$operator = "xxx"
+$password = "xxx"
 
 # 异步拉取参数
 pull = [{
@@ -28,7 +28,7 @@ end
 # 需要用到的参数组
 params = {
 	app_name: "spiderman",
-	bucket_name: "binimg",
+	bucket_name: "xxx",
 	notify_url: "http://xiaolai-xuexi.com:3000/echo",
 	tasks: "#{tasks(pull)}"
 }
